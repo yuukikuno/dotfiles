@@ -1,0 +1,21 @@
+[/]
+custom-list=['custom0', 'custom1']
+
+[custom-keybindings/custom0]
+binding=['<Primary><Alt>t']
+command='/home/yuuki/.local/bin/ghostty-toggle.fish'
+name='ghostty'
+
+[custom-keybindings/custom1]
+binding=['Print']
+command='flameshot gui'
+name='flameshot'
+
+[media-keys]
+screensaver=['<Primary><Super>l', 'XF86ScreenSaver']
+screenshot=@as []
+terminal=@as []
+
+[wm]
+switch-to-workspace-down=['<Control><Alt>Down']
+switch-windows-backward=['<Shift><Alt>Tab']
