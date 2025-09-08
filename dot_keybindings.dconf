@@ -1,9 +1,10 @@
 [/]
 custom-list=['custom0', 'custom1']
+looking-glass-keybinding=@as []
 
 [custom-keybindings/custom0]
 binding=['<Primary><Alt>t']
-command='/home/yuuki/.local/bin/ghostty-toggle.fish'
+command='.local/bin/ghostty-toggle.fish'
 name='ghostty'
 
 [custom-keybindings/custom1]
@@ -18,4 +19,5 @@ terminal=@as []
 
 [wm]
 switch-to-workspace-down=['<Control><Alt>Down']
+switch-to-workspace-up=['<Control><Alt>Up']
 switch-windows-backward=['<Shift><Alt>Tab']
