@@ -19,6 +19,8 @@ if status is-interactive
 
     # zoxide
     zoxide init fish | source
+
+    source ~/.bash_aliases
 end
 
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
