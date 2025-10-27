@@ -5,7 +5,7 @@ if status is-interactive
     #fzf --fish | source
 
     # atuin
-    atuin init fish | source
+    atuin init fish | sed 's/-k up/up/' | source
     bind up _atuin_bind_up
     
     if test "$TERM_PROGRAM" = "ghostty"
@@ -21,6 +21,8 @@ if status is-interactive
     zoxide init fish | source
 
     source ~/.bash_aliases
+
+    starship init fish | source
 end
 
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
