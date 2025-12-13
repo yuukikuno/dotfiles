@@ -1,0 +1,4 @@
+alias backup='restic backup $HOME --exclude-file=$HOME/restic/restic_excludes.txt --repository-file=$HOME/restic/restic_repository.txt --password-file=$HOME/restic/restic_password.txt --verbose'
+alias backup_dry_run='restic backup $HOME --exclude-file=$HOME/restic/restic_excludes.txt --repository-file=$HOME/restic/restic_repository.txt --password-file=$HOME/restic/restic_password.txt  -vv | grep -P "(?!unchanged) added"' 
+alias bat=batcat
+alias mv_movies='rsync --remove-source-files -avP $HOME/Downloads/Movies/ /media/yuuki/Backups/Movies/ && find $HOME/Downloads/Movies/ -type d -empty -delete'
