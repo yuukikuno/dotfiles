@@ -25,4 +25,3 @@ if status is-interactive
     starship init fish | source
 end
 
-eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
