@@ -59,3 +59,7 @@ keybind=alt+seven=unbind
 keybind=alt+eight=unbind
 keybind=alt+nine=unbind
 
+#ssh
+shell-integration-features = ssh-terminfo
+shell-integration-features = ssh-env
+
