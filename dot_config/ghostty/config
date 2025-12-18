@@ -43,7 +43,6 @@
 # resize-overlay-duration = 4s 200ms
 
 #visual
-cursor-style = bar
 window-decoration = none
 background-opacity = 0.85
 maximize = true
@@ -60,6 +59,5 @@ keybind=alt+eight=unbind
 keybind=alt+nine=unbind
 
 #ssh
-shell-integration-features = ssh-terminfo
-shell-integration-features = ssh-env
+shell-integration-features = ssh-env,sudo
 

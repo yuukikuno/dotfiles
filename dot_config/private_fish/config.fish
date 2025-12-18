@@ -1,5 +1,6 @@
 set -g fish_greeting
 if status is-interactive
+
     # Commands to run in interactive sessions can go here
 
     # fzf
@@ -10,7 +11,8 @@ if status is-interactive
     bind up _atuin_bind_up
     
     if test "$TERM_PROGRAM" = "ghostty"
-    # zellij
+	source "$GHOSTTY_RESOURCES_DIR"/shell-integration/fish/vendor_conf.d/ghostty-shell-integration.fish
+    	# zellij
         set ZELLIJ_AUTO_EXIT true
         eval (zellij setup --generate-auto-start fish | string collect)
     end
