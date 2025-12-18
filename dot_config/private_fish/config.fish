@@ -28,3 +28,4 @@ if status is-interactive
     starship init fish | source
 end
 
+/home/yuuki/.local/bin/mise activate fish | source

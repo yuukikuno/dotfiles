@@ -8,6 +8,9 @@ Terminal tools:
 - [zoxide](https://github.com/ajeetdsouza/zoxide)
 - [lazygit](https://github.com/jesseduffield/lazygit)
 - [lazydocker](https://github.com/jesseduffield/lazydocker)
+- [fzf](https://github.com/junegunn/fzf)
+- [ripgrep](https://github.com/BurntSushi/ripgrep)
+- [fd](https://github.com/sharkdp/fd)
 
 Distro: [Linux Mint](https://linuxmint.com/) Cinnamon edition
 
@@ -17,6 +20,7 @@ Utilities:
 - [hints](https://github.com/AlfredoSequeida/hints)
 - [rsibreak](https://github.com/jesseduffield/lazydocker)
 - [flameshot](https://flameshot.org/)
+- [mise](https://mise.jdx.dev/)
 
 Browser: [Ungoogled Chromium](https://github.com/ungoogled-software/ungoogled-chromium) 
 
