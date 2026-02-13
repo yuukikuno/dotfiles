@@ -33,3 +33,6 @@ export PATH="$PATH:/home/yuuki/.local/share/JetBrains/Toolbox/scripts"
 
 . "$HOME/.atuin/bin/env"
 . "$HOME/.cargo/env"
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm

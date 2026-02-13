@@ -46,6 +46,9 @@
 window-decoration = none
 background-opacity = 0.85
 maximize = true
+#maximize workaround see https://github.com/ghostty-org/ghostty/discussions/8579
+window-height = 10000
+window-width = 10000
 
 #keybinds
 keybind=alt+one=unbind
@@ -60,4 +63,5 @@ keybind=alt+nine=unbind
 
 #ssh
 shell-integration-features = ssh-env,sudo
+font-size = 10
 
