@@ -27,7 +27,8 @@ command='ghostty -e nvim'
 name='nvim'
 
 [media-keys]
-play=['Favorites']
+pause=@as []
+play=['AudioPlay', 'AudioPause', 'Favorites']
 screensaver=['<Super>l']
 screenshot=@as []
 touchpad-off=@as []
