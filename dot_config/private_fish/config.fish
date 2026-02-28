@@ -9,12 +9,9 @@ if status is-interactive
     # atuin
     atuin init fish | sed 's/-k up/up/' | source
     bind up _atuin_bind_up
-    
-    if test "$TERM_PROGRAM" = "ghostty"
-	source "$GHOSTTY_RESOURCES_DIR"/shell-integration/fish/vendor_conf.d/ghostty-shell-integration.fish
-    	# zellij
-        set ZELLIJ_AUTO_EXIT true
-        eval (zellij setup --generate-auto-start fish | string collect)
+
+    if test "$TERM_PROGRAM" = ghostty
+        source "$GHOSTTY_RESOURCES_DIR"/shell-integration/fish/vendor_conf.d/ghostty-shell-integration.fish
     end
 
     # mise
