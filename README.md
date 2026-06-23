@@ -1,6 +1,7 @@
 This uses [chezmoi](https://github.com/twpayne/chezmoi).
 
 Terminal tools:
+
 - [Ghostty](https://ghostty.org/)
 - [fish](https://fishshell.com/)
 - [Zellij](https://zellij.dev/)
@@ -11,10 +12,14 @@ Terminal tools:
 - [fzf](https://github.com/junegunn/fzf)
 - [ripgrep](https://github.com/BurntSushi/ripgrep)
 - [fd](https://github.com/sharkdp/fd)
+- [bat](https://github.com/sharkdp/bat)
+- [tldr](https://github.com/tldr-pages/tldr)
+- [thefuck](https://github.com/nvbn/thefuck)
 
 Distro: [Linux Mint](https://linuxmint.com/) Cinnamon edition
 
 Utilities:
+
 - [TLP](https://linrunner.de/tlp/index.html)
 - [keyd](https://github.com/rvaiya/keyd) to map capslock to escape when pressed and control when held.
 - [hints](https://github.com/AlfredoSequeida/hints)
@@ -22,12 +27,13 @@ Utilities:
 - [flameshot](https://flameshot.org/)
 - [mise](https://mise.jdx.dev/)
 
-Browser: [Ungoogled Chromium](https://github.com/ungoogled-software/ungoogled-chromium) 
+Browser: [Ungoogled Chromium](https://github.com/ungoogled-software/ungoogled-chromium)
 
 Browser extensions:
+
 - [Vimium](https://vimium.github.io/)
 - [Consent-O-Matic](https://consentomatic.au.dk/)
 
 Other software:
-- [Vesktop](https://vesktop.dev/)
 
+- [Vesktop](https://vesktop.dev/)
